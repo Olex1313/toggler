@@ -25,4 +25,9 @@ jobs:
 
       - name: Check java version
         run: java --version
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: say hello world
+        run: echo "$MY_VAR"
       
